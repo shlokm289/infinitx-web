@@ -1,12 +1,18 @@
 import React from 'react';
-import './styles/App.css';
+//routing
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+//pages
+import HomePage from './pages/HomePage';
+
 
 const App = () => {
 
     return (
-        <div className="bg container">
-            <h2>INFINITX</h2>
-        </div>
+            <Router>
+                <Switch>
+                    <Route to='/' component={HomePage} />
+                </Switch>
+            </Router>
     );
 }
 
