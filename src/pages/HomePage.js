@@ -10,7 +10,7 @@ import Header from '../components/HeaderComponent';
 const HomePage = () => {
 	return(
 		<div>
-			<NavComponent className="bg"/>
+			<NavComponent/>
 			<Header/>
 		</div>
 	)

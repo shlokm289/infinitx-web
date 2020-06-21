@@ -5,9 +5,6 @@ import {
 	Nav,
 	NavItem,
 	NavLink,
-	Container,
-	Row,
-	Col
 } from 'reactstrap';
 import {Link} from 'react-router-dom';
 
@@ -18,7 +15,7 @@ const NavComponent = () => {
 		<div className="bg">
 			<Navbar>
 				<NavbarBrand>
-					INFINIT_X
+					1NF1N1T_X
 				</NavbarBrand>
 				<Nav>
 					<NavItem>

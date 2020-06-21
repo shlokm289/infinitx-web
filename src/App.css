@@ -6,3 +6,9 @@
 .nav-style {
 	color: white;
 }
+
+.login-placement {
+	align-items: center;
+	justify-content: center;
+	margin-top: 100px;
+}
